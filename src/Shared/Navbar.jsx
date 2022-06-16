@@ -1,12 +1,16 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {} from "@fortawesome/free-brands-svg-icons";
+// import {} from "@fortawesome/fontawesome-svg-core";
+import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="text-blue-500">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabindex="0" className="btn btn-ghost lg:hidden">
+            <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -15,21 +19,21 @@ const Navbar = () => {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
             </label>
             <ul
-              tabindex="0"
+              tabIndex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
+              {/* <li>
                 <a>Item 1</a>
               </li>
-              <li tabindex="0">
+              <li tabIndex="0">
                 <a className="justify-between">
                   Parent
                   <svg
@@ -53,7 +57,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a>Item 3</a>
-              </li>
+              </li> */}
               <div className="navbar-end">
                 <a className="btn btn-ghost">Login</a>
                 <a className="btn btn-ghost">Sign Up</a>
@@ -62,12 +66,12 @@ const Navbar = () => {
           </div>
           <a className="btn btn-ghost normal-case text-xl">EduCapeDia</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        {/* <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
               <a>Item 1</a>
             </li>
-            <li tabindex="0">
+            <li tabIndex="0">
               <a>
                 Parent
                 <svg
@@ -93,10 +97,14 @@ const Navbar = () => {
               <a>Item 3</a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="navbar-end">
-          <a className="btn btn-ghost">Login</a>
-          <a className="btn btn-ghost">Sign Up</a>
+          <a className="btn btn-ghost">
+            Login <FontAwesomeIcon className="ml-1" icon={faRightToBracket} />
+          </a>
+          <a className="btn btn-ghost">
+            Sign Up <FontAwesomeIcon className="ml-1" icon={faRightToBracket} />
+          </a>
         </div>
       </div>
     </div>
