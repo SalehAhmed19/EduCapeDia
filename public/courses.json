@@ -1,0 +1,38 @@
+[
+    {
+        "_id":1,
+        "name":"GST RU CU JU Chapterwise Revision & Final Preparation",
+        "img":"https://i.ibb.co/k8ZZwb9/guccho-rabi-jabi.png",
+        "features":[
+            "Chapterwise Revision",
+            "Special Model Test",
+            "Question Bank - PDF",
+            "Printable Model Test - PDF",
+            "Quick Revision Material"
+        ]
+    },
+    {
+        "_id":2,
+        "name":"DU & BUET Final Preparation-21 With AAP",
+        "img":"https://i.ibb.co/NnqyjGn/dhabi-buet.jpg",
+        "features":[
+            "Chapterwise Revision",
+            "Special Model Test",
+            "Question Bank - PDF",
+            "Printable Model Test - PDF",
+            "Quick Revision Material"
+        ]
+    },
+    {
+        "_id":3,
+        "name":"HSC-21 : Varsity Chapterwise Complete Preparation",
+        "img":"https://i.ibb.co/jTPYPJp/varsiti-k.jpg",
+        "features":[
+            "Chapterwise Revision",
+            "Special Model Test",
+            "Question Bank - PDF",
+            "Printable Model Test - PDF",
+            "Quick Revision Material"
+        ]
+    }
+]

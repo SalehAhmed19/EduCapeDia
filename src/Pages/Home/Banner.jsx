@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="hero min-h-screen">
       <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
         <div>
-          <h1 className="text-6xl font-bold text-blue-500">
+          <h1 className="text-4xl lg:text-6xl font-bold text-blue-500">
             শিক্ষায়, চর্চায় ও সহযোগিতায়
           </h1>
           <p className="py-6 font-bold">
