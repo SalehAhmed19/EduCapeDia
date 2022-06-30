@@ -21,10 +21,8 @@ const Footer = () => {
           </div>
           <div>
             <span class="footer-title">প্রয়োজনীয় লিংক</span>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
+            <a class="link link-hover">Facebook Group</a>
+            <a class="link link-hover">YouTube</a>
           </div>
           <div>
             <span class="footer-title">যোগাযোগ</span>
